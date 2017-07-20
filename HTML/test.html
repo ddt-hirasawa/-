@@ -2,22 +2,53 @@
 <html>
 <head>
 
-<!-- jqueryUI��css��ǂݍ��� -->
+<!-- jqueryUIのcssを読み込む -->
 <link rel="stylesheet" type="text/css" href="jquery-ui-1.10.4.custom.min.css" media="screen" />
 
-<!-- jQuery�̖{�̂�ǂݍ��ށB -->
+<!-- jQueryの本体を読み込む。 -->
 <script src="jquery-1.11.0.min.js"></script>
-<!-- jQueryUI��ǂݍ��ށB -->
+<!-- jQueryUIを読み込む。 -->
 <script type="text/javascript" src="jquery-ui-1.9.2.custom.min.js"></script>
 
-<!-- JavaScript�̃R�[�h�̋L�q���J�n���� -->
+<!-- JavaScriptのコードの記述を開始する -->
 <script>
 	
+		$.ajax({
+			//jsonファイルのURLを指定する。
+			url: "access.json",
+			//取得するファイルの形式をJSONに指定する。
+			dataType: 'JSON',
+			//POSTメソッドでデータを送信する
+			type:'POST',
+			//同期通信を行う。
+			async: false,
+			//サーバへ連想配列を送信する。
+			//data: {json:map,key:''},
+			//キャッシュを無効にする。
+			cache:false,
+			//通信完了時の処理を記述する。
+			success: function(json){
+				//通常通りJSONが取得できていれば(JSONにcreateTagStateのキーがない)
+				if(!('createTagState' in json)){
+					//クラスのメンバjsonに取得したjsonの連想配列を格納する。
+					tmp = json;
+				//返ってきたJSONにログイン状態のキーがあれば
+				} else{
+					//ログイン状態の例外を投げる。
+					throw new loginStateError(parseInt(json.createTagState));	
+				}
+			},
+			//通信失敗時の処理
+			error:function(xhr, status, error){
+				//エラーのアラートを出す。
+				//alert(thisElem.MESSAGE_FAILED_TO_GET_FILE + jsonPath);
+				//throw error;
+			}
+		});
 
 </script>
 </head>
 
 <body>
-	<button id="testDialogButton">hit me</button>
 </body>
 </html>
