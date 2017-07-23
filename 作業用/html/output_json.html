@@ -1,0 +1,72 @@
+<html>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://alphasis.info/library/javascript/jquery/jquery-1.6.2.js"></script>
+<script>
+<!--
+    jQuery(function () {
+    jQuery('#jquery-sample-button') . toggle(
+        function (){
+            jQuery . ajax({
+                url: 'hello_first.cgi',
+                dataType: 'json',
+                success: function( data ) {
+                    console.log("成功");
+                    var title = '<h3>' + data . title + '</h3>';
+                    jQuery( '#jquery-sample-ajax' ) . append( title );
+                    jQuery . each( data . color, function( index ) {
+                    var name = data . color[index] . name;
+                    var colorName = data . color[index] . colorName;
+                    var colorCode = data . color[index] . colorCode;
+                    var html = '<p style="color:' + colorName + ';">' + name + ':' + colorName + ':' + colorCode + '</p>';
+                    jQuery( '#jquery-sample-ajax' ) . append( html );
+                    });
+                    jQuery( '#jquery-sample-textStatus' ) . text( 'complete' );
+                    },
+               error: function( data ) {
+                    console.log("miss");
+                    jQuery( '#jquery-sample-textStatus' ) . text( 'read_miss' );
+                    }
+                    });
+                    },
+                    function(){
+                        jQuery('#jquery-sample-ajax' ) . html( '' );
+                        jQuery('#jquery-sample-textStatus' ) . text( '' );
+                    }
+                );
+            });
+// -->
+</script>
+</HEAD>
+<body>
+
+<style type="text/css">
+<!--
+#jquery-sample {
+margin: 100px;
+width: 300px;
+}
+#jquery-sample-ajax {
+margin: 10px;
+padding: 10px;
+height: 150px;
+background-color: yellow;
+border: 1px solid gray;
+border-radius: 10px;
+}
+-->
+</style>
+<div>
+
+<p>
+<button id="jquery-sample-button">toggle</button>
+<span id="jquery-sample-textStatus"></span>
+</p>
+<div id="jquery-sample-ajax"></div>
+
+
+</div>
+</body>
+</html>
