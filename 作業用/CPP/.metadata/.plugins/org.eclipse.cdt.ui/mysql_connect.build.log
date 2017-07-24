@@ -1,0 +1,9 @@
+15:33:31 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o mysql_connect.exe mysqi_connect.o 
+mysqi_connect.o: In function `get_mysql_driver_instance':
+C:/Users/admin/Desktop/pleiades/mysql-connector-c++-noinstall-1.1.9-winx64/include/mysql_driver.h:89: undefined reference to `__imp__ZN3sql5mysql19get_driver_instanceEv'
+collect2.exe: error: ld returned 1 exit status
+
+15:33:32 Build Finished (took 145ms)
+

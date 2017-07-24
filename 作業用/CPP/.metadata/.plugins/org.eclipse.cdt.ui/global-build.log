@@ -1,0 +1,3016 @@
+19:03:35 **** Rebuild of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:11:25: fatal error: http_client.h: No such file or directory
+ #include <http_client.h>
+                         ^
+compilation terminated.
+19:04:02 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ -o request_test.exe request_test.o 
+19:46:27 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In instantiation of 'T convert(const string&) [with T = long unsigned int; std::__cxx11::string = std::__cxx11::basic_string<char>]':
+..\request_test.cpp:39:56:   required from here
+..\request_test.cpp:18:27: error: 'std::istringstream istream' has incomplete type
+  istringstream istream(str);
+                           ^
+19:46:59 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main()':
+..\request_test.cpp:55:34: error: invalid conversion from 'const void*' to 'void*' [-fpermissive]
+    if(fread(tmpBuf,1,length,stdin)!=length)
+                                  ^
+In file included from C:/Users/admin/Desktop/pleiades/eclipse/mingw/x86_64-w64-mingw32/include/locale.h:12:0,
+                 from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/clocale:42,
+                 from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/localefwd.h:40,
+                 from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/ios:41,
+                 from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/ostream:38,
+                 from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/iostream:39,
+                 from ..\request_test.cpp:9:
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/x86_64-w64-mingw32/include/stdio.h:466:18: note:   initializing argument 1 of 'size_t fread(void*, size_t, size_t, FILE*)'
+   size_t __cdecl fread(void * __restrict__ _DstBuf,size_t _ElementSize,size_t _Count,FILE * __restrict__ _File);
+                  ^~~~~
+..\request_test.cpp:60:19: error: assignment of read-only location '*(tmpBuf + ((sizetype)length))'
+    tmpBuf[length]='\0';
+                   ^~~~
+..\request_test.cpp: In instantiation of 'T convert(const string&) [with T = long unsigned int; std::__cxx11::string = std::__cxx11::basic_string<char>]':
+..\request_test.cpp:39:56:   required from here
+..\request_test.cpp:18:32: error: 'std::istringstream istream' has incomplete type
+  std::istringstream istream(str);
+                                ^
+19:48:14 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:20:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+ ^
+..\request_test.cpp:20:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+  ^
+..\request_test.cpp:20:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+   ^
+..\request_test.cpp:20:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+    ^
+..\request_test.cpp:20:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+     ^
+..\request_test.cpp:20:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+      ^
+..\request_test.cpp:20:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+       ^
+..\request_test.cpp:20:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//迺ｰ蠅?螟画焚縺九ｉ騾√ｉ繧後◆繝?繝ｼ繧ｿ繧ｵ繧､繧ｺ繧貞叙蠕励☆繧?
+        ^
+..\request_test.cpp:21:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+ ^
+..\request_test.cpp:21:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+  ^
+..\request_test.cpp:21:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+   ^
+..\request_test.cpp:21:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+    ^
+..\request_test.cpp:21:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+     ^
+..\request_test.cpp:21:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+      ^
+..\request_test.cpp:21:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+       ^
+..\request_test.cpp:21:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str = getenv("CONTENT_LENGTH");
+        ^
+..\request_test.cpp:22:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+ ^
+..\request_test.cpp:22:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+  ^
+..\request_test.cpp:22:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+   ^
+..\request_test.cpp:22:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+    ^
+..\request_test.cpp:22:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+     ^
+..\request_test.cpp:22:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+      ^
+..\request_test.cpp:22:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+       ^
+..\request_test.cpp:22:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+        ^
+..\request_test.cpp:23:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+ ^
+..\request_test.cpp:23:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+  ^
+..\request_test.cpp:23:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+   ^
+..\request_test.cpp:23:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+    ^
+..\request_test.cpp:23:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+     ^
+..\request_test.cpp:23:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+      ^
+..\request_test.cpp:23:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+       ^
+..\request_test.cpp:23:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+        ^
+..\request_test.cpp:25:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+ ^
+..\request_test.cpp:25:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+  ^
+..\request_test.cpp:25:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+   ^
+..\request_test.cpp:25:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+    ^
+..\request_test.cpp:25:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+     ^
+..\request_test.cpp:25:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+      ^
+..\request_test.cpp:25:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+       ^
+..\request_test.cpp:25:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+        ^
+..\request_test.cpp:26:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+ ^
+..\request_test.cpp:26:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+  ^
+..\request_test.cpp:26:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+   ^
+..\request_test.cpp:26:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+    ^
+..\request_test.cpp:26:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+     ^
+..\request_test.cpp:26:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+      ^
+..\request_test.cpp:26:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+       ^
+..\request_test.cpp:26:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+        ^
+..\request_test.cpp:27:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:27:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:27:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:27:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:27:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:27:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:27:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:27:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:28:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+ ^
+..\request_test.cpp:28:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+  ^
+..\request_test.cpp:28:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+   ^
+..\request_test.cpp:28:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+    ^
+..\request_test.cpp:28:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+     ^
+..\request_test.cpp:28:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+      ^
+..\request_test.cpp:28:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+       ^
+..\request_test.cpp:28:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+        ^
+..\request_test.cpp:29:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+ ^
+..\request_test.cpp:29:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+  ^
+..\request_test.cpp:29:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+   ^
+..\request_test.cpp:29:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+    ^
+..\request_test.cpp:29:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+     ^
+..\request_test.cpp:29:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+      ^
+..\request_test.cpp:29:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+       ^
+..\request_test.cpp:29:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+        ^
+..\request_test.cpp:30:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+ ^
+..\request_test.cpp:30:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+  ^
+..\request_test.cpp:30:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+   ^
+..\request_test.cpp:30:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+    ^
+..\request_test.cpp:30:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+     ^
+..\request_test.cpp:30:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+      ^
+..\request_test.cpp:30:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+       ^
+..\request_test.cpp:30:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+        ^
+..\request_test.cpp:31:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+ ^
+..\request_test.cpp:31:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+  ^
+..\request_test.cpp:31:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+   ^
+..\request_test.cpp:31:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+    ^
+..\request_test.cpp:31:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+     ^
+..\request_test.cpp:31:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+      ^
+..\request_test.cpp:31:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+       ^
+..\request_test.cpp:31:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+        ^
+..\request_test.cpp:32:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+ ^
+..\request_test.cpp:32:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+  ^
+..\request_test.cpp:32:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+   ^
+..\request_test.cpp:32:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+    ^
+..\request_test.cpp:32:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+     ^
+..\request_test.cpp:32:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+      ^
+..\request_test.cpp:32:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+       ^
+..\request_test.cpp:32:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+        ^
+..\request_test.cpp:33:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:33:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:33:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:33:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:33:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:33:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:33:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:33:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:34:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+ ^
+..\request_test.cpp:34:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+  ^
+..\request_test.cpp:34:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+   ^
+..\request_test.cpp:34:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+    ^
+..\request_test.cpp:34:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+     ^
+..\request_test.cpp:34:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+      ^
+..\request_test.cpp:34:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+       ^
+..\request_test.cpp:34:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return true;
+        ^
+..\request_test.cpp:39:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+ ^
+..\request_test.cpp:39:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+  ^
+..\request_test.cpp:39:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+   ^
+..\request_test.cpp:39:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+    ^
+..\request_test.cpp:39:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+     ^
+..\request_test.cpp:39:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+      ^
+..\request_test.cpp:39:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+       ^
+..\request_test.cpp:39:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+        ^
+..\request_test.cpp:40:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:40:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:40:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:40:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:40:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:40:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:40:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:40:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:41:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+ ^
+..\request_test.cpp:41:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+  ^
+..\request_test.cpp:41:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+   ^
+..\request_test.cpp:41:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+    ^
+..\request_test.cpp:41:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+     ^
+..\request_test.cpp:41:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+      ^
+..\request_test.cpp:41:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+       ^
+..\request_test.cpp:41:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+        ^
+..\request_test.cpp:42:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+ ^
+..\request_test.cpp:42:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+  ^
+..\request_test.cpp:42:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+   ^
+..\request_test.cpp:42:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+    ^
+..\request_test.cpp:42:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+     ^
+..\request_test.cpp:42:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+      ^
+..\request_test.cpp:42:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+       ^
+..\request_test.cpp:42:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+        ^
+..\request_test.cpp:43:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:43:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:43:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:43:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:43:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:43:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:43:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:43:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:44:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+ ^
+..\request_test.cpp:44:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+  ^
+..\request_test.cpp:44:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+   ^
+..\request_test.cpp:44:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+    ^
+..\request_test.cpp:44:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+     ^
+..\request_test.cpp:44:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+      ^
+..\request_test.cpp:44:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+       ^
+..\request_test.cpp:44:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+        ^
+..\request_test.cpp:45:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+ ^
+..\request_test.cpp:45:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+  ^
+..\request_test.cpp:45:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+   ^
+..\request_test.cpp:45:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+    ^
+..\request_test.cpp:45:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+     ^
+..\request_test.cpp:45:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+      ^
+..\request_test.cpp:45:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+       ^
+..\request_test.cpp:45:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+        ^
+..\request_test.cpp:46:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+ ^
+..\request_test.cpp:46:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+  ^
+..\request_test.cpp:46:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+   ^
+..\request_test.cpp:46:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+    ^
+..\request_test.cpp:46:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+     ^
+..\request_test.cpp:46:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+      ^
+..\request_test.cpp:46:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+       ^
+..\request_test.cpp:46:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+        ^
+..\request_test.cpp:47:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+ ^
+..\request_test.cpp:47:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+  ^
+..\request_test.cpp:47:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+   ^
+..\request_test.cpp:47:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+    ^
+..\request_test.cpp:47:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+     ^
+..\request_test.cpp:47:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+      ^
+..\request_test.cpp:47:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+       ^
+..\request_test.cpp:47:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+        ^
+..\request_test.cpp:48:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:48:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:48:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:48:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:48:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:48:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:48:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:48:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:49:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+ ^
+..\request_test.cpp:49:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+  ^
+..\request_test.cpp:49:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+   ^
+..\request_test.cpp:49:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+    ^
+..\request_test.cpp:49:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+     ^
+..\request_test.cpp:49:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+      ^
+..\request_test.cpp:49:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+       ^
+..\request_test.cpp:49:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+        ^
+..\request_test.cpp:50:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+ ^
+..\request_test.cpp:50:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+  ^
+..\request_test.cpp:50:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+   ^
+..\request_test.cpp:50:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+    ^
+..\request_test.cpp:50:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+     ^
+..\request_test.cpp:50:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+      ^
+..\request_test.cpp:50:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+       ^
+..\request_test.cpp:50:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?string data;
+        ^
+..\request_test.cpp:51:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+ ^
+..\request_test.cpp:51:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+  ^
+..\request_test.cpp:51:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+   ^
+..\request_test.cpp:51:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+    ^
+..\request_test.cpp:51:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+     ^
+..\request_test.cpp:51:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+      ^
+..\request_test.cpp:51:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+       ^
+..\request_test.cpp:51:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+        ^
+..\request_test.cpp:52:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+ ^
+..\request_test.cpp:52:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+  ^
+..\request_test.cpp:52:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+   ^
+..\request_test.cpp:52:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+    ^
+..\request_test.cpp:52:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+     ^
+..\request_test.cpp:52:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+      ^
+..\request_test.cpp:52:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+       ^
+..\request_test.cpp:52:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+        ^
+..\request_test.cpp:52:9: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+         ^
+..\request_test.cpp:52:10: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+          ^
+..\request_test.cpp:52:11: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+           ^
+..\request_test.cpp:52:12: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+            ^
+..\request_test.cpp:52:13: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+             ^
+..\request_test.cpp:52:14: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+              ^
+..\request_test.cpp:52:15: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+               ^
+..\request_test.cpp:52:16: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+                ^
+..\request_test.cpp:53:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+ ^
+..\request_test.cpp:53:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+  ^
+..\request_test.cpp:53:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+   ^
+..\request_test.cpp:53:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+    ^
+..\request_test.cpp:53:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+     ^
+..\request_test.cpp:53:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+      ^
+..\request_test.cpp:53:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+       ^
+..\request_test.cpp:53:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+        ^
+..\request_test.cpp:53:9: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+         ^
+..\request_test.cpp:53:10: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+          ^
+..\request_test.cpp:53:11: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+           ^
+..\request_test.cpp:53:12: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+            ^
+..\request_test.cpp:53:13: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+             ^
+..\request_test.cpp:53:14: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+              ^
+..\request_test.cpp:53:15: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+               ^
+..\request_test.cpp:53:16: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+                ^
+..\request_test.cpp:54:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+ ^
+..\request_test.cpp:54:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+  ^
+..\request_test.cpp:54:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+   ^
+..\request_test.cpp:54:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+    ^
+..\request_test.cpp:54:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+     ^
+..\request_test.cpp:54:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+      ^
+..\request_test.cpp:54:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+       ^
+..\request_test.cpp:54:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+        ^
+..\request_test.cpp:54:9: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+         ^
+..\request_test.cpp:54:10: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+          ^
+..\request_test.cpp:54:11: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+           ^
+..\request_test.cpp:54:12: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+            ^
+..\request_test.cpp:54:13: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+             ^
+..\request_test.cpp:54:14: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+              ^
+..\request_test.cpp:54:15: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+               ^
+..\request_test.cpp:54:16: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+                ^
+..\request_test.cpp:55:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+ ^
+..\request_test.cpp:55:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+  ^
+..\request_test.cpp:55:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+   ^
+..\request_test.cpp:55:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+    ^
+..\request_test.cpp:55:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+     ^
+..\request_test.cpp:55:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+      ^
+..\request_test.cpp:55:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+       ^
+..\request_test.cpp:55:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}else{
+        ^
+..\request_test.cpp:56:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+ ^
+..\request_test.cpp:56:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+  ^
+..\request_test.cpp:56:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+   ^
+..\request_test.cpp:56:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+    ^
+..\request_test.cpp:56:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+     ^
+..\request_test.cpp:56:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+      ^
+..\request_test.cpp:56:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+       ^
+..\request_test.cpp:56:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+        ^
+..\request_test.cpp:56:9: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+         ^
+..\request_test.cpp:56:10: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+          ^
+..\request_test.cpp:56:11: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+           ^
+..\request_test.cpp:56:12: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+            ^
+..\request_test.cpp:56:13: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+             ^
+..\request_test.cpp:56:14: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+              ^
+..\request_test.cpp:56:15: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+               ^
+..\request_test.cpp:56:16: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+                ^
+..\request_test.cpp:57:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+ ^
+..\request_test.cpp:57:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+  ^
+..\request_test.cpp:57:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+   ^
+..\request_test.cpp:57:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+    ^
+..\request_test.cpp:57:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+     ^
+..\request_test.cpp:57:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+      ^
+..\request_test.cpp:57:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+       ^
+..\request_test.cpp:57:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?}
+        ^
+..\request_test.cpp:58:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:58:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:58:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:58:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:58:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:58:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:58:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:58:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:59:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+ ^
+..\request_test.cpp:59:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+  ^
+..\request_test.cpp:59:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+   ^
+..\request_test.cpp:59:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+    ^
+..\request_test.cpp:59:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+     ^
+..\request_test.cpp:59:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+      ^
+..\request_test.cpp:59:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+       ^
+..\request_test.cpp:59:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+        ^
+..\request_test.cpp:60:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+ ^
+..\request_test.cpp:60:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+  ^
+..\request_test.cpp:60:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+   ^
+..\request_test.cpp:60:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+    ^
+..\request_test.cpp:60:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+     ^
+..\request_test.cpp:60:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+      ^
+..\request_test.cpp:60:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+       ^
+..\request_test.cpp:60:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+        ^
+..\request_test.cpp:61:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:61:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:61:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:61:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:61:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:61:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:61:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:61:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:62:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+ ^
+..\request_test.cpp:62:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:62:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:62:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:62:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:62:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:62:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:62:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:63:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+ ^
+..\request_test.cpp:63:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+  ^
+..\request_test.cpp:63:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+   ^
+..\request_test.cpp:63:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+    ^
+..\request_test.cpp:63:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+     ^
+..\request_test.cpp:63:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+      ^
+..\request_test.cpp:63:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+       ^
+..\request_test.cpp:63:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+        ^
+..\request_test.cpp:64:1: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+ ^
+..\request_test.cpp:64:2: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+  ^
+..\request_test.cpp:64:3: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+   ^
+..\request_test.cpp:64:4: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+    ^
+..\request_test.cpp:64:5: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+     ^
+..\request_test.cpp:64:6: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+      ^
+..\request_test.cpp:64:7: error: stray '\302' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+       ^
+..\request_test.cpp:64:8: error: stray '\240' in program
+ ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+        ^
+..\request_test.cpp:15:17: error: 'boost' is not a namespace-name
+ using namespace boost;
+                 ^~~~~
+..\request_test.cpp:15:22: error: expected namespace-name before ';' token
+ using namespace boost;
+                      ^
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:29:9: error: 'shared_array' was not declared in this scope
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+         ^~~~~~~~~~~~
+..\request_test.cpp:29:22: error: expected primary-expression before 'char'
+ ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+                      ^~~~
+..\request_test.cpp:30:17: error: 'tmp' was not declared in this scope
+ ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+                 ^~~
+19:49:11 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:22:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+  ^
+..\request_test.cpp:22:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+   ^
+..\request_test.cpp:22:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+    ^
+..\request_test.cpp:22:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+     ^
+..\request_test.cpp:22:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+      ^
+..\request_test.cpp:22:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+       ^
+..\request_test.cpp:22:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+        ^
+..\request_test.cpp:22:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return false;
+         ^
+..\request_test.cpp:23:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+  ^
+..\request_test.cpp:23:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+   ^
+..\request_test.cpp:23:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+    ^
+..\request_test.cpp:23:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+     ^
+..\request_test.cpp:23:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+      ^
+..\request_test.cpp:23:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+       ^
+..\request_test.cpp:23:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+        ^
+..\request_test.cpp:23:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?int length = atol(str) + 1;
+         ^
+..\request_test.cpp:25:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+  ^
+..\request_test.cpp:25:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+   ^
+..\request_test.cpp:25:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+    ^
+..\request_test.cpp:25:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+     ^
+..\request_test.cpp:25:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+      ^
+..\request_test.cpp:25:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+       ^
+..\request_test.cpp:25:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+        ^
+..\request_test.cpp:25:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繧ゅ＠縲√し繧､繧ｺ縺悟､ｧ縺阪☆縺弱ｋ縺ｨ縺阪?ｯ繧ｨ繝ｩ繝ｼ
+         ^
+..\request_test.cpp:26:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+  ^
+..\request_test.cpp:26:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+   ^
+..\request_test.cpp:26:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+    ^
+..\request_test.cpp:26:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+     ^
+..\request_test.cpp:26:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+      ^
+..\request_test.cpp:26:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+       ^
+..\request_test.cpp:26:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+        ^
+..\request_test.cpp:26:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(length > 1000000) return false;
+         ^
+..\request_test.cpp:27:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:27:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:27:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:27:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:27:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:27:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:27:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:27:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:28:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+  ^
+..\request_test.cpp:28:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+   ^
+..\request_test.cpp:28:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+    ^
+..\request_test.cpp:28:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+     ^
+..\request_test.cpp:28:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+      ^
+..\request_test.cpp:28:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+       ^
+..\request_test.cpp:28:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+        ^
+..\request_test.cpp:28:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//POST繝?繝ｼ繧ｿ繧貞叙蠕励☆繧?
+         ^
+..\request_test.cpp:29:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+  ^
+..\request_test.cpp:29:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+   ^
+..\request_test.cpp:29:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+    ^
+..\request_test.cpp:29:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+     ^
+..\request_test.cpp:29:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+      ^
+..\request_test.cpp:29:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+       ^
+..\request_test.cpp:29:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+        ^
+..\request_test.cpp:29:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+         ^
+..\request_test.cpp:30:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+  ^
+..\request_test.cpp:30:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+   ^
+..\request_test.cpp:30:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+    ^
+..\request_test.cpp:30:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+     ^
+..\request_test.cpp:30:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+      ^
+..\request_test.cpp:30:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+       ^
+..\request_test.cpp:30:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+        ^
+..\request_test.cpp:30:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+         ^
+..\request_test.cpp:31:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+  ^
+..\request_test.cpp:31:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+   ^
+..\request_test.cpp:31:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+    ^
+..\request_test.cpp:31:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+     ^
+..\request_test.cpp:31:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+      ^
+..\request_test.cpp:31:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+       ^
+..\request_test.cpp:31:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+        ^
+..\request_test.cpp:31:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(!cin) return false;
+         ^
+..\request_test.cpp:32:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+  ^
+..\request_test.cpp:32:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+   ^
+..\request_test.cpp:32:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+    ^
+..\request_test.cpp:32:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+     ^
+..\request_test.cpp:32:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+      ^
+..\request_test.cpp:32:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+       ^
+..\request_test.cpp:32:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+        ^
+..\request_test.cpp:32:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?data = tmp.get();
+         ^
+..\request_test.cpp:33:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:33:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:33:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:33:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:33:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:33:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:33:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:33:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:34:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+  ^
+..\request_test.cpp:34:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+   ^
+..\request_test.cpp:34:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+    ^
+..\request_test.cpp:34:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+     ^
+..\request_test.cpp:34:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+      ^
+..\request_test.cpp:34:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+       ^
+..\request_test.cpp:34:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+        ^
+..\request_test.cpp:34:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return true;
+         ^
+..\request_test.cpp:39:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+  ^
+..\request_test.cpp:39:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+   ^
+..\request_test.cpp:39:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+    ^
+..\request_test.cpp:39:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+     ^
+..\request_test.cpp:39:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+      ^
+..\request_test.cpp:39:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+       ^
+..\request_test.cpp:39:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+        ^
+..\request_test.cpp:39:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?char* str;
+         ^
+..\request_test.cpp:40:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:40:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:40:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:40:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:40:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:40:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:40:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:40:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:41:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+  ^
+..\request_test.cpp:41:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+   ^
+..\request_test.cpp:41:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+    ^
+..\request_test.cpp:41:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+     ^
+..\request_test.cpp:41:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+      ^
+..\request_test.cpp:41:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+       ^
+..\request_test.cpp:41:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+        ^
+..\request_test.cpp:41:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝倥ャ繝?驛ｨ繧貞?ｺ蜉帙＠縺ｾ縺吶??
+         ^
+..\request_test.cpp:42:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+  ^
+..\request_test.cpp:42:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+   ^
+..\request_test.cpp:42:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+    ^
+..\request_test.cpp:42:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+     ^
+..\request_test.cpp:42:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+      ^
+..\request_test.cpp:42:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+       ^
+..\request_test.cpp:42:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+        ^
+..\request_test.cpp:42:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "Content-type: text/html\n\n";
+         ^
+..\request_test.cpp:43:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:43:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:43:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:43:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:43:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:43:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:43:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:43:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:44:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+  ^
+..\request_test.cpp:44:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+   ^
+..\request_test.cpp:44:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+    ^
+..\request_test.cpp:44:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+     ^
+..\request_test.cpp:44:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+      ^
+..\request_test.cpp:44:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+       ^
+..\request_test.cpp:44:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+        ^
+..\request_test.cpp:44:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝｡繧ｽ繝?繝会ｼ?GET縺ｪ縺ｮ縺輝OST縺ｪ縺ｮ縺具ｼ峨ｒ蜿門ｾ励☆繧?
+         ^
+..\request_test.cpp:45:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+  ^
+..\request_test.cpp:45:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+   ^
+..\request_test.cpp:45:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+    ^
+..\request_test.cpp:45:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+     ^
+..\request_test.cpp:45:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+      ^
+..\request_test.cpp:45:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+       ^
+..\request_test.cpp:45:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+        ^
+..\request_test.cpp:45:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("REQUEST_METHOD");
+         ^
+..\request_test.cpp:46:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+  ^
+..\request_test.cpp:46:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+   ^
+..\request_test.cpp:46:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+    ^
+..\request_test.cpp:46:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+     ^
+..\request_test.cpp:46:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+      ^
+..\request_test.cpp:46:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+       ^
+..\request_test.cpp:46:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+        ^
+..\request_test.cpp:46:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+         ^
+..\request_test.cpp:47:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+  ^
+..\request_test.cpp:47:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+   ^
+..\request_test.cpp:47:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+    ^
+..\request_test.cpp:47:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+     ^
+..\request_test.cpp:47:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+      ^
+..\request_test.cpp:47:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+       ^
+..\request_test.cpp:47:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+        ^
+..\request_test.cpp:47:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string method = str;
+         ^
+..\request_test.cpp:48:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:48:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:48:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:48:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:48:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:48:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:48:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:48:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:49:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+  ^
+..\request_test.cpp:49:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+   ^
+..\request_test.cpp:49:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+    ^
+..\request_test.cpp:49:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+     ^
+..\request_test.cpp:49:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+      ^
+..\request_test.cpp:49:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+       ^
+..\request_test.cpp:49:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+        ^
+..\request_test.cpp:49:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺吶?ゅΓ繧ｽ繝?繝峨〒蜃ｦ逅?繧貞?縺代※縺?縺ｾ縺吶??
+         ^
+..\request_test.cpp:50:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+  ^
+..\request_test.cpp:50:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+   ^
+..\request_test.cpp:50:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+    ^
+..\request_test.cpp:50:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+     ^
+..\request_test.cpp:50:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+      ^
+..\request_test.cpp:50:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+       ^
+..\request_test.cpp:50:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+        ^
+..\request_test.cpp:50:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?string data;
+         ^
+..\request_test.cpp:51:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+  ^
+..\request_test.cpp:51:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+   ^
+..\request_test.cpp:51:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+    ^
+..\request_test.cpp:51:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+     ^
+..\request_test.cpp:51:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+      ^
+..\request_test.cpp:51:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+       ^
+..\request_test.cpp:51:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+        ^
+..\request_test.cpp:51:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?if(method == "GET"){
+         ^
+..\request_test.cpp:52:3: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+   ^
+..\request_test.cpp:52:4: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+    ^
+..\request_test.cpp:52:5: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+     ^
+..\request_test.cpp:52:6: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+      ^
+..\request_test.cpp:52:7: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+       ^
+..\request_test.cpp:52:8: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+        ^
+..\request_test.cpp:52:9: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+         ^
+..\request_test.cpp:52:10: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+          ^
+..\request_test.cpp:52:11: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+           ^
+..\request_test.cpp:52:12: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+            ^
+..\request_test.cpp:52:13: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+             ^
+..\request_test.cpp:52:14: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+              ^
+..\request_test.cpp:52:15: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+               ^
+..\request_test.cpp:52:16: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+                ^
+..\request_test.cpp:52:17: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+                 ^
+..\request_test.cpp:52:18: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?str = getenv("QUERY_STRING");
+                  ^
+..\request_test.cpp:53:3: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+   ^
+..\request_test.cpp:53:4: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+    ^
+..\request_test.cpp:53:5: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+     ^
+..\request_test.cpp:53:6: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+      ^
+..\request_test.cpp:53:7: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+       ^
+..\request_test.cpp:53:8: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+        ^
+..\request_test.cpp:53:9: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+         ^
+..\request_test.cpp:53:10: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+          ^
+..\request_test.cpp:53:11: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+           ^
+..\request_test.cpp:53:12: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+            ^
+..\request_test.cpp:53:13: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+             ^
+..\request_test.cpp:53:14: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+              ^
+..\request_test.cpp:53:15: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+               ^
+..\request_test.cpp:53:16: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+                ^
+..\request_test.cpp:53:17: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+                 ^
+..\request_test.cpp:53:18: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(str == NULL) return EXIT_FAILURE;
+                  ^
+..\request_test.cpp:54:3: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+   ^
+..\request_test.cpp:54:4: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+    ^
+..\request_test.cpp:54:5: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+     ^
+..\request_test.cpp:54:6: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+      ^
+..\request_test.cpp:54:7: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+       ^
+..\request_test.cpp:54:8: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+        ^
+..\request_test.cpp:54:9: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+         ^
+..\request_test.cpp:54:10: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+          ^
+..\request_test.cpp:54:11: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+           ^
+..\request_test.cpp:54:12: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+            ^
+..\request_test.cpp:54:13: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+             ^
+..\request_test.cpp:54:14: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+              ^
+..\request_test.cpp:54:15: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+               ^
+..\request_test.cpp:54:16: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+                ^
+..\request_test.cpp:54:17: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+                 ^
+..\request_test.cpp:54:18: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?data = str;
+                  ^
+..\request_test.cpp:55:3: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+   ^
+..\request_test.cpp:55:4: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+    ^
+..\request_test.cpp:55:5: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+     ^
+..\request_test.cpp:55:6: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+      ^
+..\request_test.cpp:55:7: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+       ^
+..\request_test.cpp:55:8: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+        ^
+..\request_test.cpp:55:9: error: stray '\302' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+         ^
+..\request_test.cpp:55:10: error: stray '\240' in program
+   ﾂ?ﾂ?ﾂ?ﾂ?}else{
+          ^
+..\request_test.cpp:56:4: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+    ^
+..\request_test.cpp:56:5: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+     ^
+..\request_test.cpp:56:6: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+      ^
+..\request_test.cpp:56:7: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+       ^
+..\request_test.cpp:56:8: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+        ^
+..\request_test.cpp:56:9: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+         ^
+..\request_test.cpp:56:10: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+          ^
+..\request_test.cpp:56:11: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+           ^
+..\request_test.cpp:56:12: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+            ^
+..\request_test.cpp:56:13: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+             ^
+..\request_test.cpp:56:14: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+              ^
+..\request_test.cpp:56:15: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+               ^
+..\request_test.cpp:56:16: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+                ^
+..\request_test.cpp:56:17: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+                 ^
+..\request_test.cpp:56:18: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+                  ^
+..\request_test.cpp:56:19: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?if(!getPostedData(data)) return EXIT_FAILURE;
+                   ^
+..\request_test.cpp:57:4: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+    ^
+..\request_test.cpp:57:5: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+     ^
+..\request_test.cpp:57:6: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+      ^
+..\request_test.cpp:57:7: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+       ^
+..\request_test.cpp:57:8: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+        ^
+..\request_test.cpp:57:9: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+         ^
+..\request_test.cpp:57:10: error: stray '\302' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+          ^
+..\request_test.cpp:57:11: error: stray '\240' in program
+    ﾂ?ﾂ?ﾂ?ﾂ?}
+           ^
+..\request_test.cpp:58:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:58:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:58:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:58:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:58:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:58:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:58:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:58:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:59:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+  ^
+..\request_test.cpp:59:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+   ^
+..\request_test.cpp:59:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+    ^
+..\request_test.cpp:59:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+     ^
+..\request_test.cpp:59:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+      ^
+..\request_test.cpp:59:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+       ^
+..\request_test.cpp:59:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+        ^
+..\request_test.cpp:59:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//繝?繝ｼ繧ｿ繧貞?ｺ蜉帙＠縺ｾ縺?
+         ^
+..\request_test.cpp:60:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+  ^
+..\request_test.cpp:60:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+   ^
+..\request_test.cpp:60:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+    ^
+..\request_test.cpp:60:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+     ^
+..\request_test.cpp:60:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+      ^
+..\request_test.cpp:60:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+       ^
+..\request_test.cpp:60:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+        ^
+..\request_test.cpp:60:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+         ^
+..\request_test.cpp:61:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:61:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:61:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:61:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:61:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:61:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:61:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:61:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:62:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+  ^
+..\request_test.cpp:62:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+   ^
+..\request_test.cpp:62:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+    ^
+..\request_test.cpp:62:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+     ^
+..\request_test.cpp:62:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+      ^
+..\request_test.cpp:62:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+       ^
+..\request_test.cpp:62:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+        ^
+..\request_test.cpp:62:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?
+         ^
+..\request_test.cpp:63:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+  ^
+..\request_test.cpp:63:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+   ^
+..\request_test.cpp:63:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+    ^
+..\request_test.cpp:63:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+     ^
+..\request_test.cpp:63:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+      ^
+..\request_test.cpp:63:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+       ^
+..\request_test.cpp:63:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+        ^
+..\request_test.cpp:63:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?//system("PAUSE");
+         ^
+..\request_test.cpp:64:2: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+  ^
+..\request_test.cpp:64:3: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+   ^
+..\request_test.cpp:64:4: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+    ^
+..\request_test.cpp:64:5: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+     ^
+..\request_test.cpp:64:6: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+      ^
+..\request_test.cpp:64:7: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+       ^
+..\request_test.cpp:64:8: error: stray '\302' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+        ^
+..\request_test.cpp:64:9: error: stray '\240' in program
+  ﾂ?ﾂ?ﾂ?ﾂ?return EXIT_SUCCESS;
+         ^
+..\request_test.cpp:15:17: error: 'boost' is not a namespace-name
+ using namespace boost;
+                 ^~~~~
+..\request_test.cpp:15:22: error: expected namespace-name before ';' token
+ using namespace boost;
+                      ^
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:29:10: error: 'shared_array' was not declared in this scope
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+          ^~~~~~~~~~~~
+..\request_test.cpp:29:23: error: expected primary-expression before 'char'
+  ﾂ?ﾂ?ﾂ?ﾂ?shared_array<char> tmp(new char[length]);
+                       ^~~~
+..\request_test.cpp:30:18: error: 'tmp' was not declared in this scope
+  ﾂ?ﾂ?ﾂ?ﾂ?cin.get(tmp.get(), length);
+                  ^~~
+21:03:11 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:15:17: error: 'boost' is not a namespace-name
+ using namespace boost;
+                 ^~~~~
+..\request_test.cpp:15:22: error: expected namespace-name before ';' token
+ using namespace boost;
+                      ^
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:28:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+21:04:17 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:27:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+21:05:48 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:27:2: error: 'shared_array' was not declared in this scope
+  shared_array<char> tmp(new char[length]);
+  ^~~~~~~~~~~~
+..\request_test.cpp:27:15: error: expected primary-expression before 'char'
+  shared_array<char> tmp(new char[length]);
+               ^~~~
+..\request_test.cpp:28:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+21:06:51 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:27:2: error: 'shared_array' was not declared in this scope
+  shared_array<char> tmp(new char[length]);
+  ^~~~~~~~~~~~
+..\request_test.cpp:27:15: error: expected primary-expression before 'char'
+  shared_array<char> tmp(new char[length]);
+               ^~~~
+..\request_test.cpp:28:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+21:08:12 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:28:2: error: 'shared_array' was not declared in this scope
+  shared_array<char> tmp(new char[length]);
+  ^~~~~~~~~~~~
+..\request_test.cpp:28:15: error: expected primary-expression before 'char'
+  shared_array<char> tmp(new char[length]);
+               ^~~~
+..\request_test.cpp:29:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+21:09:11 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:28:2: error: 'boost' has not been declared
+  boost::shared_array<char> tmp(new char[length]);
+  ^~~~~
+..\request_test.cpp:28:22: error: expected primary-expression before 'char'
+  boost::shared_array<char> tmp(new char[length]);
+                      ^~~~
+..\request_test.cpp:29:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+21:10:16 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:28:2: error: 'shared_array' was not declared in this scope
+  shared_array<char> tmp(new char[length]);
+  ^~~~~~~~~~~~
+..\request_test.cpp:28:15: error: expected primary-expression before 'char'
+  shared_array<char> tmp(new char[length]);
+               ^~~~
+..\request_test.cpp:29:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+Info: Nothing to build for mysql_connect
+21:10:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:28:2: error: 'shared_array' was not declared in this scope
+  shared_array<char> tmp(new char[length]);
+  ^~~~~~~~~~~~
+..\request_test.cpp:28:15: error: expected primary-expression before 'char'
+  shared_array<char> tmp(new char[length]);
+               ^~~~
+..\request_test.cpp:29:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+21:24:03 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:11:33: fatal error: boost/shared_array.hpp: No such file or directory
+ #include<boost/shared_array.hpp>
+                                 ^
+compilation terminated.
+21:24:24 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:11:33: fatal error: boost/shared_array.hpp: No such file or directory
+ #include<boost/shared_array.hpp>
+                                 ^
+compilation terminated.
+21:30:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:11:22: fatal error: filesystem: No such file or directory
+ #include <filesystem>
+                      ^
+compilation terminated.
+21:32:14 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:27:2: error: 'boost' has not been declared
+  boost::shared_array<char> tmp(new char[length]);
+  ^~~~~
+..\request_test.cpp:27:22: error: expected primary-expression before 'char'
+  boost::shared_array<char> tmp(new char[length]);
+                      ^~~~
+..\request_test.cpp:28:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+22:31:33 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.exe request_test.o 
+22:46:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.exe request_test.o 
+22:47:40 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.exe request_test.o 
+Info: Nothing to build for request_test
+Info: Nothing to build for mysql_connect
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+22:58:14 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+23:02:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+23:07:59 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+23:09:36 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+23:10:33 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+23:11:21 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+23:13:38 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+23:16:12 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+23:19:52 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+23:21:57 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+23:23:18 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+09:00:21 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o mysqi_connect.o "..\\mysqi_connect.cpp" 
+In file included from ..\mysqi_connect.cpp:11:0:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:30:32: fatal error: boost/scoped_ptr.hpp: No such file or directory
+ #include <boost/scoped_ptr.hpp>
+                                ^
+compilation terminated.
+09:01:35 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o mysqi_connect.o "..\\mysqi_connect.cpp" 
+In file included from ..\mysqi_connect.cpp:9:0:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:30:32: fatal error: boost/scoped_ptr.hpp: No such file or directory
+ #include <boost/scoped_ptr.hpp>
+                                ^
+compilation terminated.
+09:01:48 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o mysqi_connect.o "..\\mysqi_connect.cpp" 
+In file included from ..\mysqi_connect.cpp:9:0:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:30:32: fatal error: boost/scoped_ptr.hpp: No such file or directory
+ #include <boost/scoped_ptr.hpp>
+                                ^
+compilation terminated.
+Info: Nothing to build for request_test
+09:20:34 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o mysqi_connect.o "..\\mysqi_connect.cpp" 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:33:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/driver.h:30,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:32,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/warning.h:40:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/variant.h:38:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:35,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/driver.h:30,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:32,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:48:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:52:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(push)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:53:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable: 4275)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:58:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(pop)
+ 
+..\mysqi_connect.cpp: In function 'int main()':
+..\mysqi_connect.cpp:20:28: error: redeclaration of 'sql::mysql::MySQL_Driver* driver'
+  sql::mysql::MySQL_Driver *driver = sql::mysql::get_mysql_driver_instance();
+                            ^~~~~~
+..\mysqi_connect.cpp:19:28: note: 'sql::mysql::MySQL_Driver* driver' previously declared here
+  sql::mysql::MySQL_Driver *driver = sql::mysql::get_mysql_driver_instance();
+                            ^~~~~~
+09:20:47 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o mysqi_connect.o "..\\mysqi_connect.cpp" 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:33:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/driver.h:30,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:32,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/warning.h:40:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/variant.h:38:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:35,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/driver.h:30,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:32,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:48:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:52:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(push)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:53:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable: 4275)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:58:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(pop)
+ 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o mysql_connect.exe mysqi_connect.o 
+mysqi_connect.o: In function `get_mysql_driver_instance':
+C:/Users/admin/Desktop/pleiades/mysql-connector-c++-noinstall-1.1.9-winx64/include/mysql_driver.h:89: undefined reference to `__imp__ZN3sql5mysql19get_driver_instanceEv'
+collect2.exe: error: ld returned 1 exit status
+09:23:58 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o mysql_connect.exe mysqi_connect.o 
+mysqi_connect.o: In function `get_mysql_driver_instance':
+C:/Users/admin/Desktop/pleiades/mysql-connector-c++-noinstall-1.1.9-winx64/include/mysql_driver.h:89: undefined reference to `__imp__ZN3sql5mysql19get_driver_instanceEv'
+collect2.exe: error: ld returned 1 exit status
+09:24:16 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o mysqi_connect.o "..\\mysqi_connect.cpp" 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:33:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_connection.h:30,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/warning.h:40:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/variant.h:38:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:35,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_connection.h:30,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:48:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:52:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(push)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:53:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable: 4275)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:58:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(pop)
+ 
+..\mysqi_connect.cpp: In function 'int main()':
+..\mysqi_connect.cpp:18:2: error: 'MySQL_Driver' is not a member of 'sql::mysql'
+  sql::mysql::MySQL_Driver *driver = sql::mysql::get_mysql_driver_instance();
+  ^~~
+..\mysqi_connect.cpp:18:28: error: 'driver' was not declared in this scope
+  sql::mysql::MySQL_Driver *driver = sql::mysql::get_mysql_driver_instance();
+                            ^~~~~~
+..\mysqi_connect.cpp:18:37: error: 'get_mysql_driver_instance' is not a member of 'sql::mysql'
+  sql::mysql::MySQL_Driver *driver = sql::mysql::get_mysql_driver_instance();
+                                     ^~~
+09:24:26 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o mysqi_connect.o "..\\mysqi_connect.cpp" 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:33:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/driver.h:30,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:32,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/warning.h:40:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+In file included from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/variant.h:38:0,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/connection.h:35,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/driver.h:30,
+                 from C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/mysql_driver.h:32,
+                 from ..\mysqi_connect.cpp:9:
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:48:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4290)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:52:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(push)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:53:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable: 4275)
+ 
+C:\Users\admin\Desktop\pleiades\mysql-connector-c++-noinstall-1.1.9-winx64\include/cppconn/exception.h:58:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(pop)
+ 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o mysql_connect.exe mysqi_connect.o 
+mysqi_connect.o: In function `get_mysql_driver_instance':
+C:/Users/admin/Desktop/pleiades/mysql-connector-c++-noinstall-1.1.9-winx64/include/mysql_driver.h:89: undefined reference to `__imp__ZN3sql5mysql19get_driver_instanceEv'
+collect2.exe: error: ld returned 1 exit status
+09:37:27 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o mysql_connect.exe mysqi_connect.o 
+mysqi_connect.o: In function `get_mysql_driver_instance':
+C:/Users/admin/Desktop/pleiades/mysql-connector-c++-noinstall-1.1.9-winx64/include/mysql_driver.h:89: undefined reference to `__imp__ZN3sql5mysql19get_driver_instanceEv'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+11:46:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+12:01:07 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+12:01:28 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+12:58:56 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+12:59:17 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:01:07 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main()':
+..\request_test.cpp:60:2: warning: 'str' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(str == NULL) return EXIT_FAILURE;
+  ^~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:01:50 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:02:53 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+13:03:40 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:07:49 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:07:58 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+13:09:17 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:09:34 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:12:24 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:12:34 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:13:17 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main()':
+..\request_test.cpp:26:8: warning: unused variable 'str' [-Wunused-variable]
+  char* str;    //GET 縺? POST 縺九ｒ菫晉ｮ｡縺吶ｋ螟画焚
+        ^~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:13:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:13:49 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:15:05 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:16:27 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:18:5: warning: second argument of 'int main(int, char*)' should be 'char **' [-Wmain]
+ int main(int argc,char* argv)
+     ^~~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:16:41 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:18:5: warning: second argument of 'int main(int, const char*)' should be 'char **' [-Wmain]
+ int main(int argc,const char* argv)
+     ^~~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:16:50 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:17:56 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:18:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+13:23:42 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+13:43:07 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o -l-static-libgcc 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -l-static-libgcc
+collect2.exe: error: ld returned 1 exit status
+13:44:36 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o -lgdi32 
+13:44:48 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o -lgdi32 
+13:48:44 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+13:57:17 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+14:11:34 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main(int, const char**)':
+..\request_test.cpp:20:8: warning: unused variable 'str' [-Wunused-variable]
+  char* str;    //GET 縺? POST 縺九ｒ菫晉ｮ｡縺吶ｋ螟画焚
+        ^~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+14:11:44 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+14:12:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main(int, const char**)':
+..\request_test.cpp:20:8: warning: unused variable 'str' [-Wunused-variable]
+  char* str;    //GET 縺? POST 縺九ｒ菫晉ｮ｡縺吶ｋ螟画焚
+        ^~~
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:67:2: error: 'boost' has not been declared
+  boost::shared_array<char> tmp(new char[length]);
+  ^~~~~
+..\request_test.cpp:67:22: error: expected primary-expression before 'char'
+  boost::shared_array<char> tmp(new char[length]);
+                      ^~~~
+..\request_test.cpp:68:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+14:12:43 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main(int, const char**)':
+..\request_test.cpp:20:8: warning: unused variable 'str' [-Wunused-variable]
+  char* str;    //GET 縺? POST 縺九ｒ菫晉ｮ｡縺吶ｋ螟画焚
+        ^~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+14:14:03 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+14:15:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:68:2: error: 'boost' has not been declared
+  boost::shared_array<char> tmp(new char[length]);
+  ^~~~~
+..\request_test.cpp:68:22: error: expected primary-expression before 'char'
+  boost::shared_array<char> tmp(new char[length]);
+                      ^~~~
+..\request_test.cpp:69:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+14:15:58 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+14:17:19 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o mysql_connect.exe mysqi_connect.o 
+mysqi_connect.o: In function `get_mysql_driver_instance':
+C:/Users/admin/Desktop/pleiades/mysql-connector-c++-noinstall-1.1.9-winx64/include/mysql_driver.h:89: undefined reference to `__imp__ZN3sql5mysql19get_driver_instanceEv'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+14:20:36 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+Info: Nothing to build for request_test
+14:34:44 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp:17:17: error: 'boost' is not a namespace-name
+ using namespace boost;
+                 ^~~~~
+..\request_test.cpp:17:22: error: expected namespace-name before ';' token
+ using namespace boost;
+                      ^
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:70:2: error: 'boost' has not been declared
+  boost::shared_array<char> tmp(new char[length]);
+  ^~~~~
+..\request_test.cpp:70:22: error: expected primary-expression before 'char'
+  boost::shared_array<char> tmp(new char[length]);
+                      ^~~~
+..\request_test.cpp:71:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+14:35:21 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:69:35: error: no matching function for call to 'std::vector<char>::vector(char*)'
+  vector<char> tmp(new char[length]);
+                                   ^
+In file included from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/vector:64:0,
+                 from ..\request_test.cpp:12:
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:403:9: note: candidate: template<class _InputIterator, class> std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&)
+         vector(_InputIterator __first, _InputIterator __last,
+         ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:403:9: note:   template argument deduction/substitution failed:
+..\request_test.cpp:69:35: note:   candidate expects 3 arguments, 1 provided
+  vector<char> tmp(new char[length]);
+                                   ^
+In file included from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/vector:64:0,
+                 from ..\request_test.cpp:12:
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:375:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = char; _Alloc = std::allocator<char>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<char>]
+       vector(initializer_list<value_type> __l,
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:375:7: note:   no known conversion for argument 1 from 'char*' to 'std::initializer_list<char>'
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:350:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&) [with _Tp = char; _Alloc = std::allocator<char>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<char>]
+       vector(vector&& __rv, const allocator_type& __m)
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:350:7: note:   candidate expects 2 arguments, 1 provided
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:341:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&, const allocator_type&) [with _Tp = char; _Alloc = std::allocator<char>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<char>]
+       vector(const vector& __x, const allocator_type& __a)
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:341:7: note:   candidate expects 2 arguments, 1 provided
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:337:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&) [with _Tp = char; _Alloc = std::allocator<char>]
+       vector(vector&& __x) noexcept
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:337:7: note:   no known conversion for argument 1 from 'char*' to 'std::vector<char>&&'
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:320:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = char; _Alloc = std::allocator<char>]
+       vector(const vector& __x)
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:320:7: note:   no known conversion for argument 1 from 'char*' to 'const std::vector<char>&'
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:291:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = char; _Alloc = std::allocator<char>; std::vector<_Tp, _Alloc>::size_type = long long unsigned int; std::vector<_Tp, _Alloc>::value_type = char; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<char>]
+       vector(size_type __n, const value_type& __value,
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:291:7: note:   candidate expects 3 arguments, 1 provided
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:279:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = char; _Alloc = std::allocator<char>; std::vector<_Tp, _Alloc>::size_type = long long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<char>] <near match>
+       vector(size_type __n, const allocator_type& __a = allocator_type())
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:279:7: note:   conversion of argument 1 would be ill-formed:
+..\request_test.cpp:69:19: error: invalid conversion from 'char*' to 'std::vector<char>::size_type {aka long long unsigned int}' [-fpermissive]
+  vector<char> tmp(new char[length]);
+                   ^~~~~~~~~~~~~~~~
+In file included from C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/vector:64:0,
+                 from ..\request_test.cpp:12:
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:266:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const allocator_type&) [with _Tp = char; _Alloc = std::allocator<char>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<char>]
+       vector(const allocator_type& __a) _GLIBCXX_NOEXCEPT
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:266:7: note:   no known conversion for argument 1 from 'char*' to 'const allocator_type& {aka const std::allocator<char>&}'
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:255:7: note: candidate: std::vector<_Tp, _Alloc>::vector() [with _Tp = char; _Alloc = std::allocator<char>]
+       vector()
+       ^~~~~~
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/bits/stl_vector.h:255:7: note:   candidate expects 0 arguments, 1 provided
+..\request_test.cpp:70:14: error: 'class std::vector<char>' has no member named 'get'
+  cin.get(tmp.get(), length);
+              ^~~
+..\request_test.cpp:78:13: error: 'class std::vector<char>' has no member named 'get'
+  data = tmp.get();
+             ^~~
+14:36:32 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:70:14: error: 'class std::vector<char>' has no member named 'get'
+  cin.get(tmp.get(), length);
+              ^~~
+..\request_test.cpp:78:13: error: 'class std::vector<char>' has no member named 'get'
+  data = tmp.get();
+             ^~~
+14:36:51 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:69:21: error: conversion from 'char*' to non-scalar type 'std::vector<char>' requested
+  vector<char> tmp = new char[length];
+                     ^~~~~~~~~~~~~~~~
+..\request_test.cpp:70:14: error: 'class std::vector<char>' has no member named 'get'
+  cin.get(tmp.get(), length);
+              ^~~
+..\request_test.cpp:78:13: error: 'class std::vector<char>' has no member named 'get'
+  data = tmp.get();
+             ^~~
+14:38:00 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:69:18: error: expected initializer before '*' token
+  vector<char> tmp* = new char[length];
+                  ^
+..\request_test.cpp:70:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+14:38:10 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:69:37: error: cannot convert 'char*' to 'std::vector<char>*' in initialization
+  vector<char> *tmp = new char[length];
+                                     ^
+..\request_test.cpp:70:14: error: request for member 'get' in 'tmp', which is of pointer type 'std::vector<char>*' (maybe you meant to use '->' ?)
+  cin.get(tmp.get(), length);
+              ^~~
+..\request_test.cpp:78:13: error: request for member 'get' in 'tmp', which is of pointer type 'std::vector<char>*' (maybe you meant to use '->' ?)
+  data = tmp.get();
+             ^~~
+14:39:06 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:67:2: error: 'shared_array' was not declared in this scope
+  shared_array<char> tmp = new char[length];
+  ^~~~~~~~~~~~
+..\request_test.cpp:67:2: note: suggested alternative:
+In file included from C:\Users\admin\Desktop\pleiades\boost_1_64_0/boost/shared_array.hpp:17:0,
+                 from ..\request_test.cpp:11:
+C:\Users\admin\Desktop\pleiades\boost_1_64_0/boost/smart_ptr/shared_array.hpp:45:25: note:   'boost::shared_array'
+ template<class T> class shared_array
+                         ^~~~~~~~~~~~
+..\request_test.cpp:67:15: error: expected primary-expression before 'char'
+  shared_array<char> tmp = new char[length];
+               ^~~~
+..\request_test.cpp:68:10: error: 'tmp' was not declared in this scope
+  cin.get(tmp.get(), length);
+          ^~~
+14:39:16 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'const bool getPostedData(std::__cxx11::string&)':
+..\request_test.cpp:67:34: error: conversion from 'char*' to non-scalar type 'boost::shared_array<char>' requested
+  boost::shared_array<char> tmp = new char[length];
+                                  ^~~~~~~~~~~~~~~~
+14:39:31 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -static-libgcc -o request_test.cgi request_test.o 
+14:41:48 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o request_test.cgi request_test.o 
+14:43:26 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+14:56:18 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main(int, const char**)':
+..\request_test.cpp:21:8: warning: unused variable 'str' [-Wunused-variable]
+  char* str = getenv("CONTENT_LENGTH");
+        ^~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+14:57:22 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:02:35 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+15:09:26 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:12:23 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:17:55 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:25:29 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main(int, const char**)':
+..\request_test.cpp:23:8: warning: unused variable 'tmp' [-Wunused-variable]
+  char* tmp = getenv("CONTENT_LENGTH");
+        ^~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:25:45 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:30:23 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:32:08 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+..\request_test.cpp: In function 'int main(int, const char**)':
+..\request_test.cpp:23:8: warning: unused variable 'tmp' [-Wunused-variable]
+  char* tmp = getenv("CONTENT_LENGTH");
+        ^~~
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:32:17 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file request_test.cgi: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:32:25 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file request_test.cgi: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:32:53 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file request_test.cgi: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:32:57 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file request_test.cgi: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:33:31 **** インクリメンタル・ビルド of configuration Debug for project mysql_connect ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\mysql-connector-c++-noinstall-1.1.9-winx64\\include" "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" -o mysql_connect.exe mysqi_connect.o 
+mysqi_connect.o: In function `get_mysql_driver_instance':
+C:/Users/admin/Desktop/pleiades/mysql-connector-c++-noinstall-1.1.9-winx64/include/mysql_driver.h:89: undefined reference to `__imp__ZN3sql5mysql19get_driver_instanceEv'
+collect2.exe: error: ld returned 1 exit status
+15:33:32 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file request_test.cgi: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:35:21 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:35:36 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:43:39 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+15:55:08 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+Info: Nothing to build for request_test
+16:09:44 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+16:10:12 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+16:26:16 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+16:26:52 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file request_test.cgi: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:27:02 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+C:/Users/admin/Desktop/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file request_test.cgi: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:27:50 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 

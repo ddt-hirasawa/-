@@ -1,0 +1,24 @@
+/* �T�v Ajax�ʐM���s���ہA���N�G�X�g���𓾂�K�v�����邽�ߍ쐬
+ * HttpRequest �N���X �Ŏ擾�ł���͂�
+ *
+ * �쐬�� 7��23��
+ *
+ * �쐬�� ���V�h��
+ */
+
+#include<iostream>
+#include<cstdlib>
+#include<boost/shared_array.hpp>
+#include<string>
+
+using namespace std;
+
+int main()
+{
+	//�w�b�_�����o�͂��܂��B CGI�d�l
+	cout << "Content-type: text/html\n\n";
+	//�f�[�^���o�͂��܂�
+	cout << "こんにちわと表示する";
+
+	return 0;
+}

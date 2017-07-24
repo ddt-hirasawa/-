@@ -1,0 +1,20 @@
+/* 概要 Ajax通信を行う際、リクエスト情報を得る必要があるため作成
+ * HttpRequest クラス で取得できるはず
+ *
+ * 作成日 7月23日
+ *
+ * 作成者 平澤敬介
+ */
+
+#include<iostream>
+#include<stdlib.h>
+
+using namespace std;
+
+int main() {
+
+
+
+
+	return 0;
+}

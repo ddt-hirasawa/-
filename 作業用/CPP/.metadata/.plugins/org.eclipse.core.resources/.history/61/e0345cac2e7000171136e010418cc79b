@@ -1,0 +1,79 @@
+/* 概要 Ajax通信でれクエスト情報を取得するテスト
+ * HttpRequestの代用
+ *
+ * 作成日 2017年7月24日
+ *
+ * 作成者 平澤敬介
+ */
+
+#include<iostream>
+#include<cstdlib>
+#include<boost/shared_array.hpp>
+#include<string>
+
+using namespace std;
+
+const bool getPostedData(string& data);
+
+int main(int argc,const char* argv[])
+{
+	char* str;				//GET か POST かを保管する変数
+
+	//ヘッダ部を出力します。 CGI仕様
+	cout << "Content-type: text/html\n\n";
+
+	//メソッド（GETなのかPOSTなのか）を取得する
+	/*str = getenv("JSON_DATA");
+
+	if(str == NULL) return EXIT_FAILURE;
+
+	string method = str;	//"POST"文字が入るはず
+	//データを出力します。メソッドで処理を分けています。
+	string data;
+	if(method == "GET"){
+		str = getenv("QUERY_STRING");
+		if(str == NULL) return EXIT_FAILURE;
+		data = str;
+	}else{
+		if(!getPostedData(data)) return EXIT_FAILURE;
+	}
+
+	//データを出力します
+	cout << "<html><head>" << method << ":" << data << "</head><body>\n";
+*/
+	return 0;
+}
+
+/* 関数 POST送信されてきたデータを取得するテスト
+ *
+ * 作成日 2017年7月24日
+ *
+ * 作成者 平澤敬介
+ */
+const bool getPostedData(string& data)
+{
+	bool answer = true;
+	//環境変数から送られたデータサイズを取得する
+	char* str = getenv("CONTENT_LENGTH");
+
+	//その際、データが空なら処理を行わない
+	if(str == NULL) {
+
+		answer = false;
+	}
+	int length = atol(str) + 1;		//データ長を取得
+
+	//POSTデータを取得する
+	boost::shared_array<char> tmp(new char[length]);
+	cin.get(tmp.get(), length);
+
+	//取得できなかった場合、返却値をfalse
+	if(!cin) {
+
+		answer = false;
+	}
+	//実際のデータを取得
+	data = tmp.get();
+
+	return answer;
+};

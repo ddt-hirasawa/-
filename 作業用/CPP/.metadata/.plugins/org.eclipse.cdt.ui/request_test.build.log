@@ -1,0 +1,7 @@
+16:27:50 **** インクリメンタル・ビルド of configuration Debug for project request_test ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0" -O0 -g3 -Wall -c -fmessage-length=0 -o request_test.o "..\\request_test.cpp" 
+g++ "-LC:\\Users\\admin\\Desktop\\pleiades\\boost_1_64_0\\stage\\lib" "-LC:\\Users\\admin\\Desktop\\pleiades\\eclipse\\mingw\\opt\\bin" -o request_test.cgi request_test.o 
+
+16:27:51 Build Finished (took 734ms)
+
